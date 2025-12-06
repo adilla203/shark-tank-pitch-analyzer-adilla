@@ -1,4 +1,4 @@
-# 🦈 Shark Tank Pitch Analyzer (Free & Local Edition)
+# Shark Tank Pitch Analyzer (Free & Local Edition)
 
 An AI-powered tool that analyzes business pitches from YouTube videos (like Shark Tank) to predict investment success. 
 
