@@ -26,7 +26,7 @@ Ensure you have the following installed on your system:
 ### Setup Steps
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/YOUR_USERNAME/shark-tank-pitch-analyzer.git](https://github.com/YOUR_USERNAME/shark-tank-pitch-analyzer.git)
+    git clone [https://github.com/adilla203/shark-tank-pitch-analyzer-adilla](https://github.com/adilla203/shark-tank-pitch-analyzer-adilla)
     cd shark-tank-pitch-analyzer
     ```
 
