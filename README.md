@@ -1,18 +1,18 @@
-# Shark Tank Pitch Analyzer (Free & Local Edition)
+# Shark Tank Pitch Analyzer
 
-An AI-powered tool that analyzes business pitches from YouTube videos (like Shark Tank) to predict investment success. 
+An AI tool that analyzes business pitches from YouTube videos, like Shark Tank, to predict investment success.
 
-Unlike other tools that require expensive APIs (GPT-4) or complex system installations (FFmpeg), this project is designed to run **100% locally and free** using smart rule-based NLP and signal processing.
+This project runs entirely locally and free. It uses smart rule-based NLP and signal processing. Unlike other tools, it does not need expensive APIs or complex system setups.
 
 ## Features
 
-* **Zero Cost Architecture:** Uses Google's Free Speech Recognition and local Python logic instead of paid OpenAI credits.
-* **Vocal Tone Analysis:** Uses `Librosa` to measure the speaker's energy, confidence, and vocal expressiveness in the critical first 90 seconds.
-* **Smart Speaker Separation:** Differentiates between the "Pitcher" and the "Sharks" by analyzing sentence context (e.g., filtering for "I/We/Our" statements vs. questions).
-* **Dependency-Free Audio:** Uses `MoviePy`'s internal tools to process audio, eliminating the need for a system-wide FFmpeg installation.
-* **The Virtual Shark Panel:** Simulates feedback from 4 distinct investor personas:
-    * *The Finance Shark* (Focuses on margins & sales)
-    * *The Visionary* (Focuses on patents & energy)
+* **No Cost Structure:** Utilizes Google's Free Speech Recognition and local Python logic instead of paid OpenAI credits.
+* **Vocal Tone Analysis:** Employs `Librosa` to assess the speaker's energy, confidence, and vocal expressiveness in the key first 90 seconds.
+* **Smart Speaker Separation:** Tells apart the "Pitcher" and the "Sharks" by analyzing sentence context, filtering for "I/We/Our" statements and questions.
+* **Dependency-Free Audio:** Leverages `MoviePy`'s internal tools to process audio, removing the need for a system-wide FFmpeg installation.
+* **The Virtual Shark Panel:** Simulates feedback from four distinct investor personas:
+    * *The Finance Shark* (Focuses on margins and sales)
+    * *The Visionary* (Focuses on patents and energy)
     * *The Customer Advocate* (Focuses on problem clarity)
     * *The Skeptic* (Focuses on risks)
 
