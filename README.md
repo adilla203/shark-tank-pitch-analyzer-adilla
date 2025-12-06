@@ -18,7 +18,31 @@ This project runs entirely locally and free. It uses smart rule-based NLP and si
 
 ## Installation
 
-1. Clone the repository:
-   ```bash
-   git clone <your-repo-url>
-   cd shark-tank-analyzer
+### Prerequisites
+Ensure you have the following installed on your system:
+* **Python 3.8+**
+* **FFmpeg (External):** While the code avoids system installation, `yt-dlp` and some internal tools may rely on `ffmpeg` existing in the background for optimal performance.
+
+### Setup Steps
+1.  **Clone the repository:**
+    ```bash
+    git clone [https://github.com/YOUR_USERNAME/shark-tank-pitch-analyzer.git](https://github.com/YOUR_USERNAME/shark-tank-pitch-analyzer.git)
+    cd shark-tank-pitch-analyzer
+    ```
+
+2.  **Install Dependencies:** **Strict version pinning is required** (`moviepy<2.0` and `decorator<5.0`) to avoid the common `ImportError` and `TypeError` conflicts.
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+## Usage
+
+1.  Open the `shark_tank_full_analysis.py` script.
+2.  Set the `URL` variable at the bottom of the script to any YouTube pitch video you wish to analyze (e.g., the default Scrub Daddy pitch).
+3.  Run the script from your terminal:
+    ```bash
+    python shark_tank_full_analysis.py
+    ```
+
+### Expected Output
+The script will output the results of the tone analysis, the overall calculated Business Score (0-100), and personalized, randomized verdicts from the four virtual investor personas.
