@@ -41,7 +41,7 @@ Ensure you have the following installed on your system:
 2.  Set the `URL` variable at the bottom of the script to any YouTube pitch video you wish to analyze (e.g., the default Scrub Daddy pitch).
 3.  Run the script from your terminal:
     ```bash
-    python shark_tank_full_analysis.py
+    python shark_tank_analyser.py
     ```
 
 ### Expected Output
